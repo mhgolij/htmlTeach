@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    direction: ltr;
+}
+          
+#p2{
+    text-align: justify;
+    font-family: Arial;
+    font-size: 18px;
+    color: red;
+}

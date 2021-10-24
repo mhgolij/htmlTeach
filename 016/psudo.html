@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* input:checked {
+            height: 50px;
+            width: 50px;
+        } */
+
+        /* input:disabled {
+            border: 1px solid red;
+        } */
+
+        /* input:enabled {
+            border: 1px solid green;
+        } */
+
+        /* input {
+            width: 150px;
+        } */
+
+        /* input:focus {
+            width: 350px;
+            transition: 0.3s;
+        } */
+
+        input:in-range {
+            border: 3px solid blue;
+        }
+
+        /* input:invalid {
+            border: 3px solid red;
+        }
+
+        input:optional {
+            border: 3px solid green;
+        } */
+
+        input:out-of-range {
+            border: 3px solid rgb(165, 248, 12);
+        }
+
+        input:read-only {
+            border: 3px solid rgb(165, 248, 12);
+        }
+
+        input:read-write {
+            border: 3px solid rgb(12, 248, 102);
+        }
+
+        input:required {}
+
+        input:valid {}
+
+        p:empty {
+            width: 100px;
+            height: 100px;
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="">
+        <input type="radio" checked="checked" value="male" name="gender"> Male<br>
+        <input type="radio" value="female" name="gender"> Female<br>
+        <input type="checkbox" checked="checked" value="Bike"> I have a bike<br>
+        <input type="checkbox" value="Car"> I have a car
+        <input type="text" disabled>
+        <input type="email" readonly>
+        <input type="number" min="3" max="6">
+    </form>
+    <p></p>
+    <p></p>
+</body>
+
+</html>

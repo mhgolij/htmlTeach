@@ -1,0 +1,88 @@
+main {
+  float: left;
+  width: 938px;
+  box-sizing: border-box;
+  padding: 0 19px;
+}
+main h2 {
+  font-size: 1.5rem;
+  color: whitesmoke;
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 1.5rem;
+  background-color: gray;
+}
+.card {
+  background-color: greenyellow;
+  width: 280px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: "yekanf";
+  border-radius: 0.5rem;
+  cursor: default;
+  float: right;
+  margin: 0 10px 25px;
+  overflow: hidden;
+}
+#cancel .card {
+  background-color: rgb(260, 96, 96);
+}
+#undone .card {
+  background-color: burlywood;
+}
+#done p {
+  text-decoration: line-through;
+}
+.card:hover {
+  box-shadow: 0 0 5px 0 black;
+  transition: 0.6s;
+}
+.card p {
+  padding: 1rem;
+  border-bottom: 1px solid grey;
+}
+main .cardexerpt {
+  padding: 0.5rem 1rem;
+}
+.card span:first-of-type {
+  float: right !important;
+}
+.card span:last-of-type {
+  float: left !important;
+}
+.cardexerpt i {
+  margin-left: 0.5rem;
+  vertical-align: -2px;
+}
+.card .hilight {
+  text-align: center;
+  font-size: 3rem;
+  position: absolute;
+  width: 100%;
+  bottom: 100%;
+  background-color: #0005004b;
+}
+.card .hilight a {
+  margin: 0 1rem;
+}
+.card .hilight i {
+  margin: 5.7rem 0 7rem;
+  color: white;
+}
+.card .hilight i:hover {
+  color: bisque;
+  transition: 0.3s;
+}
+.cardimg:hover .hilight {
+  transition: 0.4s;
+  bottom: 0;
+}
+.cardimg {
+  position: relative;
+}
+.cardimg img {
+  width: 290px;
+  height: 250px;
+  display: block;
+}

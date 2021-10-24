@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div {
+            counter-reset: myCounter -10;
+        }
+
+        h1 {
+            counter-increment: myCounter -3;
+        }
+
+        h1::before {
+            content: counter(myCounter) ".";
+        } */
+
+        ul {
+            counter-reset: myCounter;
+            list-style: none;
+        }
+
+        li {
+            counter-increment: myCounter 1;
+        }
+
+        li::before {
+            content: counters(myCounter, "+")".";
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div>
+        <h1>
+            Section A
+        </h1>
+        <h1>
+            Section B
+        </h1>
+        <h1>
+            Section C
+        </h1>
+    </div> -->
+
+    <ul>
+        <li>
+            Section A
+            <ul>
+                <li>Section A.A</li>
+                <li>Section A.B</li>
+            </ul>
+        </li>
+        <li>
+            Section B
+            <ul>
+                <li>Section B.A</li>
+                <li>Section B.B</li>
+                <li>Section B.C</li>
+            </ul>
+        </li>
+        <li>
+            Section C
+            <ul>
+                <li>Section C.A</li>
+            </ul>
+        </li>
+    </ul>
+
+
+
+</body>
+
+</html>

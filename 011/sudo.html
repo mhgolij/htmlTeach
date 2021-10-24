@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* a:active {
+            color: red;
+        } */
+
+        a::after {
+            content: "- clickme";
+        }
+
+        a::before {
+            content: "***";
+        }
+
+        /* a:visited {
+            color: salmon;
+        } */
+
+        /* :target {
+            border: 1px solid black;
+        } */
+
+        /* ::selection {
+            color: red;
+            background: yellow;
+        } */
+
+        /* :root {
+            background: #ff0000;
+        } */
+
+        /* ::marker {
+            color: red;
+        } */
+
+        /* a:link {
+            color: black;
+        } */
+
+        /* :any-link {
+            color: black;
+        } */
+
+        /* :lang(it) {} */
+
+        /* :fullscreen {} */
+
+        /* :hover {} */
+
+        /* *:not(p) {} */
+
+        /*:default :focus :read-only :out-of-range :optional
+         ::placeholder :invalid :disabled :in-range :indeterminate
+          :enabled :empty :checked :read-write
+          :required :valid */
+    </style>
+</head>
+
+<body>
+    <a href="#para"></a>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reiciendis neque autem quidem numquam
+        officia
+        itaque. Explicabo facilis culpa ratione ex quas amet veritatis. Est hic saepe deserunt ipsa sunt?</p>
+    <a href="http://google.com" target="_blank" title="link-us oo">link</a>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+</body>
+
+</html>

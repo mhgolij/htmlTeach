@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter {
+            color: blue;
+        }
+
+        p::first-line {
+            color: red;
+        }
+
+        li:first-of-type {
+            background-color: royalblue;
+        }
+
+        li:first-child {
+            color: salmon;
+        }
+
+        li:last-child {
+            background-color: sandybrown;
+        }
+
+        li:last-of-type {
+            color: sienna;
+        }
+
+        li:nth-child(3) {
+            background-color: skyblue;
+        }
+
+        li:nth-last-child(n) {}
+
+        li:nth-last-of-type(n) {}
+
+        li:nth-of-type(n) {}
+
+        li:only-of-type {}
+
+        li:only-child {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, architecto a. Expedita odit repellendus,
+        ratione consequatur ipsam aliquid sit adipisci laudantium? Sed voluptate, earum nostrum adipisci officiis quae
+        maxime nemo.
+    </p>
+    <ul>
+        <li>abc</li>
+    </ul>
+</body>
+
+</html>

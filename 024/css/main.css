@@ -1,0 +1,160 @@
+main {
+  float: left;
+  width: 938px;
+  box-sizing: border-box;
+  padding: 0 19px;
+}
+main h2 {
+  font-size: 1.5rem;
+  color: whitesmoke;
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid gray;
+  background-color: grey;
+}
+.card {
+  background-color: greenyellow;
+  width: 280px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: "yekanf";
+  border-radius: 0.5rem;
+  cursor: unset;
+  overflow: hidden;
+  float: right;
+  margin: 0 10px 25px;
+}
+#cancel .card {
+  background-color: rgb(260, 96, 96);
+}
+#undone .card {
+  background-color: burlywood;
+}
+.card:hover {
+  box-shadow: 0 0 5px 0 black;
+  transition: 0.6s;
+}
+.card p {
+  padding: 1rem;
+  border-bottom: 1px solid gray;
+}
+main .cartexerpt {
+  padding: 0.5rem 1rem;
+}
+.card span:first-of-type {
+  float: right;
+}
+.cartexerpt i {
+  margin-left: 0.5rem;
+  vertical-align: -2px;
+}
+.card span:last-of-type {
+  float: left;
+}
+.card .hilight {
+  text-align: center;
+  font-size: 3rem;
+  position: absolute;
+  width: 100%;
+  bottom: 100%;
+  background-color: #0005004b;
+}
+.card .hilight a {
+  margin: 0 1rem;
+}
+.card .hilight i {
+  margin: 5.5rem 0 7rem;
+  color: white;
+}
+.card .hilight i:hover {
+  color: bisque;
+  transition: 0.3s;
+}
+.cardimg {
+  position: relative;
+}
+.cardimg:hover .hilight {
+  bottom: 0;
+  transition: 0.4s;
+}
+.cardimg img {
+  width: 290px;
+  height: 250px;
+  display: block;
+}
+#footer {
+  background-color: black;
+  border-top: 3px solid turquoise;
+  color: azure;
+  padding: 5rem 2rem 0.5rem;
+}
+footer #about {
+  float: right;
+  width: 33%;
+  text-align: justify;
+}
+footer h2 {
+  text-align: center;
+  font-size: 1.6rem;
+}
+footer #about p {
+  line-height: 1.5;
+  margin: 2rem 0;
+}
+footer #about input[type="email"] {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 4px solid greenyellow;
+  direction: ltr;
+  padding: 0.5rem;
+  background: url("../img/email.png");
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: 282px 6px;
+}
+footer #about input[type="email"]:focus {
+  border: 3px solid skyblue;
+}
+footer #about input[type="submit"] {
+  background-color: wheat;
+  width: 25%;
+  display: block;
+  margin: 1rem auto;
+}
+footer #about input[type="submit"]:hover {
+  background-color: antiquewhite;
+}
+footer #contact {
+  float: left;
+  width: 33%;
+}
+footer address {
+  margin-top: 2rem;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+footer address a {
+  font-family: "yekanf";
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+footer address i {
+  margin-left: 0.7rem;
+}
+footer .copyright {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid white;
+  padding-top: 1rem;
+}
+footer .copyright span span {
+  font-family: "yekanf";
+  font-size: 1.2rem;
+  margin-left: 0.2rem;
+}
