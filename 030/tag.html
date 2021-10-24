@@ -10,22 +10,22 @@
         #div1 {
             background-color: yellow;
             height: 100px;
-            width: max(50%, 300px);
+            width: min(50%, 300px);
         }
     </style>
 </head>
 
 <body>
-    <video width="320" height="240" controls>
-        <source src="forrest_gump.mp4" type="video/mp4">
+    <!-- <video width="320" height="240" controls preload="none" poster="">
+        <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
         <source src="forrest_gump.ogg" type="video/ogg">
         <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
         <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
-    </video>
-
-    <audio controls>
+    </video> -->
+    <div id="div1"></div>
+    <audio controls preload="metadata">
         <source src="horse.ogg" type="audio/ogg">
-        <source src="horse.mp3" type="audio/mpeg">
+        <source src="01-2.mp3" type="audio/mpeg">
         Your browser does not support the audio tag.
     </audio>
 </body>
